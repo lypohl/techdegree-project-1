@@ -192,10 +192,9 @@ h3 {
   max-width: 100%;
 }
 
-/* .portfolioCard {
-    width: 400px;
+.portfolioCard {
     padding: 0px;
-} */
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -203,6 +202,7 @@ h3 {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
+      flex-wrap: wrap;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -242,6 +242,10 @@ h3 {
     float: right;
     max-width: 80%;
     margin: 50px 0px;
+  }
+
+  .portfolioCard {
+      max-width: 320px;
   }
 
 
